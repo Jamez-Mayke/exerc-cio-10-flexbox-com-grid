@@ -125,3 +125,25 @@
   padding: 10px;
   text-transform: uppercase;
 }
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #414041;
+  height: 60px;
+  align-items: center;
+  padding: 40px;
+  margin-top: 40px;
+}
+
+.footer__logo {
+  width: 200px;
+}
+
+.footer__backtotop a {
+  text-decoration: none;
+  color: white;
+  font-family: var(--montserrat);
+  font-size: 18px;
+  text-transform: uppercase;
+}
