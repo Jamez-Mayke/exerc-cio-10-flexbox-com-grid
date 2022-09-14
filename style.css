@@ -54,3 +54,42 @@
   font-weight: 300;
   font-size: 22px;
 }
+
+/* content */
+
+.content {
+  display: flex;
+  width: 100vw;
+}
+
+.categoria__principal {
+  width: 80vw;
+}
+
+.categorias {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin: 0 40px;
+}
+
+.categoria__item--imagem img {
+  width: 100%;
+  height: 200px;
+  border-radius: 8px;
+}
+
+.categoria__item h3 {
+  font-family: var(--montserrat);
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.categoria__item p {
+  font-family: var(--open-sans);
+  font-family: 18px;
+}
+
+.categorias__extras {
+  width: 20vw;
+}
