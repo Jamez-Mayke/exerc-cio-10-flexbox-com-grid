@@ -33,3 +33,24 @@
   font-family: var(--open-sans);
   font-size: 18px;
 }
+
+.apresentacao {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  padding: 30px;
+}
+
+.apresentacao h2 {
+  font-family: var(--montserrat);
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.apresentacao h3 {
+  font-family: var(--open-sans);
+  font-weight: 300;
+  font-size: 22px;
+}
