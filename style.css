@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --montserrat: "Montserrat", sans-serif;
+  --open-sans: "Open Sans", sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(47, 46, 48);
+  padding: 20px 40px;
+}
+
+.header__logo-image {
+  min-width: 250px;
+}
+
+.header__links {
+  display: flex;
+  list-style-type: none;
+  gap: 30px;
+}
+
+.header__links a {
+  text-decoration: none;
+  color: #fff;
+  font-family: var(--open-sans);
+  font-size: 18px;
+}
